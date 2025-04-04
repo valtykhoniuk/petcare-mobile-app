@@ -1,0 +1,19 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Настройка светлой темы -->
+    <!-- Основной цвет (Primary Color) -->
+    <item name="colorPrimary">@color/mainBackgroundColorPeach</item>
+    <!-- Цвет для компонентов интерфейса, таких как плавающие кнопки действия (Floating Action Button) -->
+    <item name="colorPrimaryVariant">@color/textButtonColor</item>
+    <!-- Цвет фона -->
+    <item name="android:colorBackground">@color/mainBackgroundColorPeach</item>
+    <!-- Цвет текста -->
+    <item name="android:textColor">@color/textButtonColor</item>
+    <!-- Customize your light theme here. -->
+    <item name="android:fontFamily">@font/outfit</item>
+</style>
+
+<style name="Theme.Betaver1" parent="Base.Theme.Betaver1" />
+</resources>

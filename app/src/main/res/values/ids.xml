@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="startStopButton" type="id" />
+    <item name="titleText" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="diagnoseButton" type="id" />
+</resources>
