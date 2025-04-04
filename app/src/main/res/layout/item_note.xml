@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/rounded_corner_3"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/itemNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="My Title" />
+
+    <TextView
+        android:id="@+id/itemNoteDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemNoteTitle"
+        android:textColor="@color/gray_color"
+        tools:text="My long long long description" />
+
+    <TextView
+        android:id="@+id/itemNoteTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemNoteDesc"
+        android:gravity="end"
+        android:textColor="@color/dark_blue_color"
+        android:textSize="12sp"
+        tools:text="Jan 21 2020 " />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/deleteNoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemNoteTime"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/dark_pink_color"
+        android:text="@string/delete"
+        android:textColor="@color/white" />
+</RelativeLayout>

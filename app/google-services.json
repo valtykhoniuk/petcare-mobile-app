@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793779141915",
+    "project_id": "pet-app-database-89be8",
+    "storage_bucket": "pet-app-database-89be8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793779141915:android:5f03571e8918acd96527be",
+        "android_client_info": {
+          "package_name": "com.valeriia.pet_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKmt_3xdhJd8K7GYaSNOIm1S5o6HblazI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
